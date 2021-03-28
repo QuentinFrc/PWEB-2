@@ -1,0 +1,52 @@
+
+    html,
+    body {
+        height: 100%
+
+    }
+
+#map{
+    margin: 0 auto;
+    border: 5px solid lightslategray;
+    width: 90%;
+    height: 80%;
+    margin-bottom: 15%;
+}
+.input{
+    margin: 3% 0;
+    width: 75%;
+}
+
+#score{
+    position: absolute;
+    top: 25%;
+    left: 30%;
+    right: 30%;
+    background-color: white;
+    border: black 1px solid;
+    box-shadow: 12px 12px 2px 1px rgba(255, 255, 255, 0.2);
+}
+#score > p{
+    text-align: center;
+}
+
+.option{
+    margin:0 auto;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+.mode{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    align-items: center;
+}
+#enoncé{
+}
+#title{
+    text-align: center;
+    text-decoration: underline;
+}

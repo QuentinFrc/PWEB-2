@@ -1,0 +1,30 @@
+.form{
+    position: absolute;
+    top: 25%;
+    left: 30%;
+    right: 30%;
+    background-color: white;
+    border: black 1px solid;
+    box-shadow: 12px 12px 2px 1px rgba(255, 255, 255, 0.2);
+}
+.contenu, .titre{
+    text-align: center;
+}
+.button-end, .input{
+    padding: 2%;
+    display: grid;
+    grid-row-gap: 3%;
+    text-align: center;
+}
+.button{
+    margin: 0 auto;
+    align-self: center;
+    width: 75%;
+}
+.button{
+    border: 2px solid lightgoldenrodyellow;
+    
+}
+.button:hover{
+    background-color: lightgoldenrodyellow;
+}
